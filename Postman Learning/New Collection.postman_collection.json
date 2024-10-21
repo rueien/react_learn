@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "1de57ed9-0517-494b-9b5f-bda2fcfc9e72",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37718134"
+	},
+	"item": [
+		{
+			"name": "Initialize export",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Check if done",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Obtain data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://au1.qualtrics.com/API/v3/surveys/SV_5ioPbheKLyojYFM/export-responses/123/file\n",
+					"protocol": "https",
+					"host": [
+						"au1",
+						"qualtrics",
+						"com"
+					],
+					"path": [
+						"API",
+						"v3",
+						"surveys",
+						"SV_5ioPbheKLyojYFM",
+						"export-responses",
+						"123",
+						"file\n"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
